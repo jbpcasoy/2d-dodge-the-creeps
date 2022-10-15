@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://arrow.png" type="Texture" id=1]
+
+[node name="MobileControls" type="CanvasLayer"]
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+modulate = Color( 1, 1, 1, 0.658824 )
+position = Vector2( 211, 438 )
+scale = Vector2( 0.105469, 0.105469 )
+normal = ExtResource( 1 )
+passby_press = true
+action = "move_up"
+
+[node name="TouchScreenButton2" type="TouchScreenButton" parent="."]
+modulate = Color( 1, 1, 1, 0.658824 )
+position = Vector2( 155, 549 )
+rotation = -1.57079
+scale = Vector2( 0.105469, 0.105469 )
+normal = ExtResource( 1 )
+passby_press = true
+action = "move_left"
+
+[node name="TouchScreenButton3" type="TouchScreenButton" parent="."]
+modulate = Color( 1, 1, 1, 0.658824 )
+position = Vector2( 264, 609 )
+rotation = -3.14159
+scale = Vector2( 0.105469, 0.105469 )
+normal = ExtResource( 1 )
+passby_press = true
+action = "move_down"
+
+[node name="TouchScreenButton4" type="TouchScreenButton" parent="."]
+modulate = Color( 1, 1, 1, 0.658824 )
+position = Vector2( 323, 495 )
+rotation = 1.57079
+scale = Vector2( 0.105469, 0.105469 )
+normal = ExtResource( 1 )
+passby_press = true
+action = "move_right"

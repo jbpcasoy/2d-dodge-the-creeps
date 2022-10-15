@@ -19,12 +19,10 @@ func new_game():
 	$HUD.show_message("Get Ready...")
 
 	yield($StartTimer, "timeout")
-	$MobileControls.show()
 	$ScoreTimer.start()
 	$MobTimer.start()
 
 func game_over():
-	$MobileControls.hide()
 	$ScoreTimer.stop()
 	$MobTimer.stop()
 	$HUD.show_game_over()

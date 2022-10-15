@@ -11,6 +11,7 @@ scale = Vector2( 0.105469, 0.105469 )
 normal = ExtResource( 1 )
 passby_press = true
 action = "move_up"
+visibility_mode = 1
 
 [node name="TouchScreenButton2" type="TouchScreenButton" parent="."]
 modulate = Color( 1, 1, 1, 0.658824 )
@@ -20,6 +21,7 @@ scale = Vector2( 0.105469, 0.105469 )
 normal = ExtResource( 1 )
 passby_press = true
 action = "move_left"
+visibility_mode = 1
 
 [node name="TouchScreenButton3" type="TouchScreenButton" parent="."]
 modulate = Color( 1, 1, 1, 0.658824 )
@@ -29,6 +31,7 @@ scale = Vector2( 0.105469, 0.105469 )
 normal = ExtResource( 1 )
 passby_press = true
 action = "move_down"
+visibility_mode = 1
 
 [node name="TouchScreenButton4" type="TouchScreenButton" parent="."]
 modulate = Color( 1, 1, 1, 0.658824 )
@@ -38,3 +41,4 @@ scale = Vector2( 0.105469, 0.105469 )
 normal = ExtResource( 1 )
 passby_press = true
 action = "move_right"
+visibility_mode = 1

@@ -20,7 +20,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Dodge the Creeps (2D): starter project"
+config/name="Dodge the Creeps"
 config/description="A 2D game where you dodge little aliens.
 
 This is the starter project for the video version of the tutorial published on the GDQuest YouTube channel."
